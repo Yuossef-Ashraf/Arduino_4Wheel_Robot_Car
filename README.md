@@ -1,28 +1,30 @@
-# Arduino 4-Wheel Autonomous Robot Car 🏎️🤖
+# Arduino 4-Wheel Robot Car
 
-Embedded C++/Arduino firmware for a 4-wheel drive obstacle-avoiding robot car with motor driver integration.
+Embedded Arduino C++ firmware for a 4-wheel drive obstacle-avoiding robotic vehicle with motor driver control.
 
-## Key Features ✨
-- Well-structured code and clean modular implementation.
-- Built with modern standard tools: **Arduino C++, L298N Motor Driver, Ultrasonic Sensor, Hardware Pinouts**.
-- Clean data preprocessing, EDA, and model evaluation metrics.
+## Contents
+- **Code**: `Arduino_4Wheel_Robot_Car (code).ino`
+- **Dataset / Resources**: `Wiring diagram: car_wiring_diagram.jpg, Manual: 4wheel car.pdf`
+- **Documentation**: `README.md`
 
-## Project Structure 📂
-```
-Arduino_4Wheel_Robot_Car/
-├── .gitignore
-├── README.md
-└── ... (project source files)
+## Requirements
+```bash
+pip install Arduino IDE, L298N Motor Driver, Ultrasonic Sensor
 ```
 
-## Setup & Installation 🚀
+## Usage
+1. Clone the repository:
 ```bash
 git clone https://github.com/Yuossef-Ashraf/Arduino_4Wheel_Robot_Car.git
 cd Arduino_4Wheel_Robot_Car
 ```
+2. Open and run the project code:
+```bash
+jupyter notebook "Arduino_4Wheel_Robot_Car (code).ino"
+```
 
-## Author 👤
-Created and maintained by **Yuossef Ashraf**.
+## Author
+Yuossef Ashraf
 
-## License 📜
-Distributed under the MIT License.
+## License
+MIT License
