@@ -2,10 +2,13 @@
 
 Embedded Arduino C++ firmware for a 4-wheel drive obstacle-avoiding robotic vehicle with motor driver control.
 
-## Contents
+## Project Structure
 - **Code**: `Arduino_4Wheel_Robot_Car (code).ino`
-- **Dataset / Resources**: `Wiring diagram: car_wiring_diagram.jpg, Manual: 4wheel car.pdf`
+- **Dataset / Resources**: `car_wiring_diagram.jpg, 4wheel car.pdf`
 - **Documentation**: `README.md`
+
+## Wiring Diagram
+![Wiring Diagram](car_wiring_diagram.jpg)
 
 ## Requirements
 ```bash
@@ -18,7 +21,7 @@ pip install Arduino IDE, L298N Motor Driver, Ultrasonic Sensor
 git clone https://github.com/Yuossef-Ashraf/Arduino_4Wheel_Robot_Car.git
 cd Arduino_4Wheel_Robot_Car
 ```
-2. Open and run the project code:
+2. Run the project:
 ```bash
 jupyter notebook "Arduino_4Wheel_Robot_Car (code).ino"
 ```
